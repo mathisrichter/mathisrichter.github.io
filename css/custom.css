@@ -1,0 +1,54 @@
+.container {
+ margin-top: 50px;
+}
+ 
+#nav {
+ margin: 13px 0 0 0;
+}
+ 
+#nav ul li {
+ display: inline;
+ margin: 0 20px 0 0;
+ margin-bottom: 130px;
+ font-family: Lusitana;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 26px;
+ line-height: 34px;
+}
+ 
+#nav a {
+ text-decoration: none;
+ color: black;
+}
+ 
+#nav a:hover {
+ text-decoration: underline;
+ color: black;
+}
+
+#footer a {
+ text-decoration: none;
+ color: black;
+ padding: 1em;
+}
+
+#footer a:hover {
+ text-decoration: underline;
+ color: black;
+ padding: 1em;
+}
+
+#headerImage img {
+ margin-bottom: 50px;
+ max-width: 100%;
+ height: auto;
+}
+
+#footer ul li {
+ display: inline;
+}
+
+.header {
+ text-align: center;
+}
