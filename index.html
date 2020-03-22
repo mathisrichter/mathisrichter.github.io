@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <title>Mathis Richter</title>
   <meta name="description" content="">
-  <meta name="author" content="Mathis Richter">
+  <meta name="author" content="">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -15,8 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Lusitana" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -24,6 +23,12 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
 
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  <link rel="stylesheet" href="css/github-prettify-theme.css">
+  <script src="js/site.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -34,39 +39,129 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
   <div class="container">
-
-    <div class="row">
-      <div id="nav" class="three columns">
-        <ul>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </div>
-    </div>
-
     <section class="header">
       <h2 class="title">Mathis Richter</h2>
 
-      <div id="headerImage">
-        <img src="images/mathis.png" title="Mathis Richter" />
-      </div>
+      <img class="header-img" src="images/mathis.png" title="Mathis Richter" />
 
-      <h2 class"title">Hi there! I'm a researcher & software engineer in artificial intelligence.</h2>
-    </section>
-
-    <section class="footer">
-      <div class="row">
-        <div id="footer" class="twelve columns">
-          <ul>
-            <li><a href="mailto:mathis.richter@gmail.com" title="Email">mathis.richter@gmail.com</a></li>
-            <li><a href="https://github.com/mathisrichter/" title="Github">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/mathis-richter/" title="LinkedIn">LinkedIn</a></li>
-          </ul>
+      <div class="value-props row">
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/feather.svg">
+          Researcher with PhD in cognitive systems.
         </div>
-      <div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/pens.svg">
+          Software engineer with programming skills in C++ &amp; Python.
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/watch.svg">
+          Problem solver who thrives in interdisciplinary environments.
+        </div>
+      </div>
     </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#intro">Intro</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#cv">CV</a></li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#" data-popover="#codeNavPopover">Code</a>
+            <div id="codeNavPopover" class="popover">
+              <ul class="popover-list">
+                <li class="popover-item">
+                  <a class="popover-link" href="#grid">Grid</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#typography">Typography</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#buttons">Buttons</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#forms">Forms</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#lists">Lists</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#code">Code</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#tables">Tables</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#queries">Queries</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#utilities">Utilities</a>
+                </li>
+              </ul>
+          </div>
+          </li>
+          <li class="navbar-item"><a class="navbar-link" href="#publications">Publications</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Who am I -->
+    <div class="docs-section" id="intro">
+      <h6 class="docs-header">What I do</h6>
+      <p>I am generally interested in how the human brain gives rise to cognition. This includes fundamental questions like how we perceive the world around us, how we keep what we perceive in working memory, and how we make decisions. It also includes more complex questions, like how we are able to describe in language what we see, and how we map language we hear onto the world we see and remember. It also includes how we are able to imagine entirely new worlds.</p>
+      <p>Understanding how the brain enables us to do all of this is interesting in its own right. However, I am also eager to use what I am learning to solve problems. How can we apply the neural principles to advance technology and improve peoples' lives?</p>
+    </div>
+
+    <div class="docs-section" id="cv">
+      <h6 class="docs-header">Resume</h6>
+      <p>You can download my short (two page) resume here.</p>
+      <a class="button button-primary" href="">Download resume</a>
+      <p>(I set the resume in XeTeX, based on the AltaCV class. You can find the code <a href="#code" title="Code">online</a>.)</p>
+    </div>
+
+    <div class="docs-section" id="code">
+      <h6 class="docs-header">Code</h6>
+      <p>A few of my coding projects are on <a href="https://github.com/mathisrichter" title="Github: mathisrichter">github.com/mathisrichter</a>.</p>
+      <p>I have worked on 
+
+
+
+    </div>
+
+
+
+
+
+    <div class="docs-section" id="intro">
+      <h6 class="docs-header">What I do</h6>
+      <p>I am generally interested in how the human brain gives rise to cognition. This includes fundamental questions like how we perceive the world around us, how we keep what we perceive in working memory, and how we make decisions. It also includes more complex questions, like how we are able to describe in language what we see, and how we map language we hear onto the world we see and remember. It also includes how we are able to imagine entirely new worlds.</p>
+      <p>Understanding how the brain enables us to do all of this is interesting in its own right. However, I am also eager to use what I am learning to solve problems. How can we apply the neural principles to advance technology and improve peoples' lives?</p>
+    </div>
+
+    <div class="docs-section" id="cv">
+      <h6 class="docs-header">Resume</h6>
+      <p>You can download my short (two page) resume here.</p>
+      <a class="button button-primary" href="">Download resume</a>
+      <p>(I set the resume in XeTeX, based on the AltaCV class. You can find the code <a href="#code" title="Code">online</a>.)</p>
+    </div>
+
+    <div class="docs-section" id="code">
+      <h6 class="docs-header">Code</h6>
+      <p>A few of my coding projects are on <a href="https://github.com/mathisrichter" title="Github: mathisrichter">github.com/mathisrichter</a>.</p>
+      <p>I have worked on 
+
+
+
+    </div>
+
+
+
+
+
+
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
