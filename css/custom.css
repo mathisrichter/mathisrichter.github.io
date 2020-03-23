@@ -7,10 +7,10 @@
   margin-top: 2rem;
   width: 40%; }
 .value-prop {
-  margin-top: 0rem; }
+  margin-top: 1rem; }
 .value-props {
-  margin-top: 0rem;
-  margin-bottom: 0rem; }
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
 .docs-header {
   text-transform: uppercase;
   font-size: 1.4rem;
@@ -23,7 +23,7 @@
 .value-img {
   display: block;
   text-align: center;
-  margin: 2.5rem auto 0; }
+  margin: 1.5rem auto 0; }
 .example-grid .column,
 .example-grid .columns {
   background: #EEE;
@@ -92,7 +92,7 @@
   .header {
     margin-top: 18rem; }
   .value-props {
-    margin-top: 9rem;
+    margin-top: 2rem;
     margin-bottom: 7rem; }
   .value-img {
     margin-bottom: 1rem; }

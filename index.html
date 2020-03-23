@@ -48,15 +48,15 @@
 
       <div class="value-props row">
         <div class="four columns value-prop">
-          <img class="value-img" src="images/feather.svg">
+          <img class="value-img" src="images/brain.svg">
           Researcher with PhD in cognitive systems.
         </div>
         <div class="four columns value-prop">
-          <img class="value-img" src="images/pens.svg">
+          <img class="value-img" src="images/laptop.svg">
           Software engineer with programming skills in C++ &amp; Python.
         </div>
         <div class="four columns value-prop">
-          <img class="value-img" src="images/watch.svg">
+          <img class="value-img" src="images/bulb.svg">
           Problem solver who thrives in interdisciplinary environments.
         </div>
       </div>
@@ -66,8 +66,9 @@
     <nav class="navbar">
       <div class="container">
         <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href="#intro">Intro</a></li>
-          <li class="navbar-item"><a class="navbar-link" href="#cv">CV</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#intro">What I do</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#resume">Resume</a></li>
+          <!--<li class="navbar-item"><a class="navbar-link" href="#code">Code</a></li>
           <li class="navbar-item">
             <a class="navbar-link" href="#" data-popover="#codeNavPopover">Code</a>
             <div id="codeNavPopover" class="popover">
@@ -101,7 +102,7 @@
                 </li>
               </ul>
           </div>
-          </li>
+          </li>-->
           <li class="navbar-item"><a class="navbar-link" href="#publications">Publications</a></li>
           <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
         </ul>
@@ -111,56 +112,66 @@
     <!-- Who am I -->
     <div class="docs-section" id="intro">
       <h6 class="docs-header">What I do</h6>
-      <p>I am generally interested in how the human brain gives rise to cognition. This includes fundamental questions like how we perceive the world around us, how we keep what we perceive in working memory, and how we make decisions. It also includes more complex questions, like how we are able to describe in language what we see, and how we map language we hear onto the world we see and remember. It also includes how we are able to imagine entirely new worlds.</p>
-      <p>Understanding how the brain enables us to do all of this is interesting in its own right. However, I am also eager to use what I am learning to solve problems. How can we apply the neural principles to advance technology and improve peoples' lives?</p>
+      <p>I am generally interested in how the human brain gives rise to cognition. This includes fundamental questions like how we perceive the world around us, how we keep what we perceive in working memory, and how we make decisions. It also includes more complex questions, like how we are able to describe in language what we see, how we map language we hear onto the world we see and remember, as well as how we are able to imagine entirely new worlds.</p>
+      <p>Understanding how the brain enables us to do all of this is interesting in its own right. However, I am also eager to use what I am learning to solve problems. How can we apply the underlying neural principles to advance technology and improve peoples' lives? And in what way may neuromorphic technology help in this endeavor?</p>
     </div>
 
-    <div class="docs-section" id="cv">
+    <div class="docs-section" id="resume">
       <h6 class="docs-header">Resume</h6>
       <p>You can download my short (two page) resume here.</p>
-      <a class="button button-primary" href="">Download resume</a>
-      <p>(I set the resume in XeTeX, based on the AltaCV class. You can find the code <a href="#code" title="Code">online</a>.)</p>
+      <a class="button button-primary" href="files/Mathis_Richter_Resume.pdf">Download resume</a>
+      <!--<p>(I set the resume in XeTeX, based on the AltaCV class. You can find the code <a href="#code" title="Code">online</a>.)</p>-->
     </div>
 
+    <!--
     <div class="docs-section" id="code">
       <h6 class="docs-header">Code</h6>
       <p>A few of my coding projects are on <a href="https://github.com/mathisrichter" title="Github: mathisrichter">github.com/mathisrichter</a>.</p>
-      <p>I have worked on 
-
-
-
     </div>
 
-
-
-
-
-    <div class="docs-section" id="intro">
-      <h6 class="docs-header">What I do</h6>
-      <p>I am generally interested in how the human brain gives rise to cognition. This includes fundamental questions like how we perceive the world around us, how we keep what we perceive in working memory, and how we make decisions. It also includes more complex questions, like how we are able to describe in language what we see, and how we map language we hear onto the world we see and remember. It also includes how we are able to imagine entirely new worlds.</p>
-      <p>Understanding how the brain enables us to do all of this is interesting in its own right. However, I am also eager to use what I am learning to solve problems. How can we apply the neural principles to advance technology and improve peoples' lives?</p>
+    <div class="docs-section" id="cedar">
+      <h6 class="docs-header">cedar</h6>
+      <p><a href="https://cedar.ini.rub.de" title="CEDAR C++ Framework">CEDAR</a> is a graphical C++ framework for developing and simulating neural dynamic architectures. It is optimized
+        to build architectures based on the principles of <a href="https://dynamicfieldtheory.org" title="Dynamic Field Theory Website">dynamic field theory</a>
+        but also includes other algorithms and elements.<p>
+      <img width="100%" src="images/cedar.png" title="Screenshot of the graphical user interface of CEDAR">
+      <p>I initiated and co-developed the framework with Oliver Lomp and Stephan Zibner. It is still being actively
+      maintained and used in <a href="https://ini.rub.de/people/gregor-schoner" title="Prof. Gregor Sch&ouml;ner">Gregor Sch&ouml;ner</a>'s
+      research group at the <a href="https://ini.rub.de" title="Institute for Neural Computation">Institute for Neural Computation</a> in Bochum, Germany.</p>
     </div>
 
-    <div class="docs-section" id="cv">
-      <h6 class="docs-header">Resume</h6>
-      <p>You can download my short (two page) resume here.</p>
-      <a class="button button-primary" href="">Download resume</a>
-      <p>(I set the resume in XeTeX, based on the AltaCV class. You can find the code <a href="#code" title="Code">online</a>.)</p>
+    <div class="docs-section" id="thesis template">
+      <h6 class="docs-header">PhD thesis template</h6>
+      <p>For my <a href="" title="PhD thesis by Mathis Richter (pdf, 25 MB)">PhD thesis</a>, I adapted a beautiful LaTeX template by ..., integrating ideas I got from ...'s thesis and the work of ...
+        The resulting template (and my entire PhD thesis) are available online. Feel free to use the template if you like it.</p>
     </div>
 
-    <div class="docs-section" id="code">
-      <h6 class="docs-header">Code</h6>
-      <p>A few of my coding projects are on <a href="https://github.com/mathisrichter" title="Github: mathisrichter">github.com/mathisrichter</a>.</p>
-      <p>I have worked on 
+    <div class="docs-section" id="resume template">
+      <h6 class="docs-header">Resume template</h6>
+      <p>I created the first version of my CV with the online editor <a href="https;//enhancv.com" title="Enhancv - Online resume builder">Enhancv</a>.
+        It gave me some great hints on how to structure my resume and what I should or should not add to it. To be independent
+        from their framework, I rebuilt their template (which I quite like) in LaTex. Fortunately, I could build on top of
+        <a href="" title="AltaCV Latex template">AltaCV</a>, a rebuild of a different but similar Enhancv template.</p>
+      <p>You can find the template of my resume on <a href="https://github.com/mathisrichter/resume/" title="Latex Resume template">Github</a>.</p>
+    </div>
+    -->
 
-
-
+    <div class="docs-section" id="publications">
+      <h6 class="docs-header">Publications</h6>
+      <p>An up-to-date list of my publications is available on the <a href="https://www.ini.rub.de/the_institute/people/mathis-richter/#publications" title="Publications Mathis Richter">pages of my institute</a>.<br>
+        You can also find me on <a href="https://scholar.google.com/citations?user=lwAVM2QAAAAJ" title="Google Scholar Mathis Richter">Google Scholar</a>.</p>
     </div>
 
-
-
-
-
+    <div class="docs-section" id="contact">
+      <h6 class="docs-header">Contact</h6>
+      <p><strong>Dr.-Ing. Mathis Richter</strong><br>
+        Theory of Cognitive Systems<br>
+        Institut für Neuroinformatik<br>
+        Building NB, room 02/75<br>
+        Ruhr-Universität Bochum</p>
+      <p>Email: <a href="mailto:mathis.richter@ini.rub.de" title="Email address Mathis Richter">mathis.richter@ini.rub.de</a><br>
+         LinkedIn: <a href="https://www.linkedin.com/in/mathis-richter/" title="Mathis Richter on LinkedIn">mathis-richter</a></p>
+    </div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
